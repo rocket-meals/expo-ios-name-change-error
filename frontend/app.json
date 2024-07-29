@@ -1,0 +1,145 @@
+{
+  "expo": {
+    "name": "Rocket Meals Demo",
+    "slug": "rocket-meals-swosy",
+    "version": "20.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "notification": {
+      "icon": "./assets/images/notification-icon.png"
+    },
+    "updates": {
+      "enabled": true,
+      "url": "https://u.expo.dev/64630663-d761-45fe-97f2-210f9461ee4e"
+    },
+    "scheme": "app-rocket-meals-swosy",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "privacyManifests": {
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "CA92.1"
+            ],
+            "ignoreCommentExplanation": {
+              "CA92.1": "read and write information that is only accessible to the app itself."
+            }
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategorySystemBootTime",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "8FFB.1"
+            ],
+            "ignoreCommentExplanation": {
+              "8FFB.1": "boot time to calculate absolute timestamps for events that occurred within your app. Absolute timestamps for events that occurred within your app may be sent off-device. System boot time accessed for this reason, or any other information derived from system boot time, may not be sent off-device."
+            }
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryDiskSpace",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "85F4.1"
+            ],
+            "ignoreCommentExplanation": {
+              "85F4.1": "Disk space may be displayed in units of information (such as bytes). Information accessed for this reason, or any derived information, may not be sent off-device."
+            }
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "DDA9.1"
+            ],
+            "ignoreCommentExplanation": {
+              "DDA9.1": "display file timestamps to the person using the device. Information accessed for this reason, or any derived information, may not be sent off-device."
+            }
+          }
+        ]
+      },
+      "supportsTablet": true,
+      "bundleIdentifier": "de.swosy.swosy",
+      "buildNumber": "20"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "de.swosy.swosy",
+      "versionCode": 100
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-notifications",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with the world.",
+          "cameraPermission": "The app accesses your camera to let you share photos with the world."
+        }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "jack5496"
+        }
+      ],
+      [
+        "react-native-nfc-manager",
+        {
+          "nfcPermission": "The app accesses NFC read your Card balance.",
+          "includeNdefEntitlement": false
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.4"
+          }
+        }
+      ],
+      "expo-build-properties",
+      "expo-localization",
+      "expo-asset",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "baseUrl": "/swosy"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "64630663-d761-45fe-97f2-210f9461ee4e"
+      }
+    },
+    "owner": "baumgartner-software",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
