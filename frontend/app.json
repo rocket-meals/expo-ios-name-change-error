@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "SWOSYr",
+    "name": "SWOSY",
     "slug": "expo-ios-name-change-error",
     "version": "20.0.0",
     "orientation": "default",
@@ -68,7 +68,7 @@
       },
       "supportsTablet": true,
       "bundleIdentifier": "de.swosy.swosy",
-      "buildNumber": "21"
+      "buildNumber": "22"
     },
     "android": {
       "adaptiveIcon": {
