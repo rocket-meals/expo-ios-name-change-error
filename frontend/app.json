@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SWOSY",
-    "slug": "rocket-meals-swosy",
+    "name": "SWOSYr",
+    "slug": "expo-ios-name-change-error",
     "version": "20.0.0",
     "orientation": "default",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,7 @@
     },
     "updates": {
       "enabled": true,
-      "url": "https://u.expo.dev/64630663-d761-45fe-97f2-210f9461ee4e"
+      "url": "https://u.expo.dev/c8fb459a-bac1-4c52-8a7c-7f4e097ed4ac"
     },
     "scheme": "app-rocket-meals-swosy",
     "userInterfaceStyle": "automatic",
@@ -68,7 +68,7 @@
       },
       "supportsTablet": true,
       "bundleIdentifier": "de.swosy.swosy",
-      "buildNumber": "20"
+      "buildNumber": "21"
     },
     "android": {
       "adaptiveIcon": {
@@ -134,7 +134,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "64630663-d761-45fe-97f2-210f9461ee4e"
+        "projectId": "c8fb459a-bac1-4c52-8a7c-7f4e097ed4ac"
       }
     },
     "owner": "baumgartner-software",

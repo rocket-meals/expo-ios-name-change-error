@@ -1,7 +1,6 @@
 **/*.DS_Store
 .idea/**
 
-backend/Backend/directusExtensions/directus-extension-rocket-meals-bundle/coverage/
-
 !secrets/.keep
 secrets/**
+frontend/node_modules/
